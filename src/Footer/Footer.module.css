@@ -1,0 +1,35 @@
+body{
+    min-height: 100vh;
+}
+
+
+
+.maincontainer{
+   border-top: 1px dotted black;
+   margin-top: 20px;
+}
+.footer1{
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.footer2{
+    width: 70%;
+    margin:15px auto;
+    text-align: center;
+    border-top: 1px dotted black;
+}
+.icons{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer3{
+    border-top: 1px dotted black;
+    font-family: 'Chakra Petch', sans-serif;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
