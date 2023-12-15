@@ -1,0 +1,126 @@
+.maincontainer{
+    width: 80%;
+    height:30rem;
+margin: 30px auto;
+box-sizing: content-box;
+background-color: black;
+background-image: url("https://www.freelogoservices.com/blog/wp-content/uploads/T-Shirt-Promotion-Ideas.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size:cover;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.headingtext{ 
+    margin:auto;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.418);
+    color: black;
+    font-family: 'Chakra Petch', sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.toaligncenter{
+    width: 50%;
+}
+
+.categories{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+}
+
+.categories > h2{
+    font-weight: 800;
+}
+
+.categoryitems{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.imagefirst,.imagesecond{
+    width: 40vw;
+    height: 400px;
+    background-image: url('https://m.media-amazon.com/images/I/71SNEa-l3xL._SY741_.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0;padding: 0;
+    font-family: 'Chakra Petch', sans-serif;
+    border:ipx solid black;
+   
+}
+
+.imagesecond{
+    background-image: url('https://shop.broot.in/cdn/shop/products/aqq_4e283cd1-7ee4-45eb-ba96-85221db32f14_1200x1200.jpg?v=1614409868');
+}
+.first > p{
+    font-weight: 700;
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+}
+
+.first > button:hover{
+    transform: scale(1.1);
+}
+
+.first > button{
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(100, 187, 14);
+    border-radius: 6px;
+}
+
+
+@media (min-width:0px) and (max-width:768px){
+    .maincontainer{
+        width: 90vw;
+        height: 20rem;
+        background-image: url("https://www.freelogoservices.com/blog/wp-content/uploads/T-Shirt-Promotion-Ideas.jpg");
+        background-size: 100% contain;
+    }
+    .headingtext >h3{
+        font-size: 20px;
+    }
+    .headingtext >p{
+        font-size: 13px;
+    }
+    .categoryitems{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .imagefirst,.imagesecond{
+        width:90%;
+        height: 450px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width:769px) and (max-width:980px){
+    .maincontainer{
+        width: 90vw;
+        height: 25rem;
+        background-image: url("https://www.freelogoservices.com/blog/wp-content/uploads/T-Shirt-Promotion-Ideas.jpg");
+        background-size: 100% cover;
+    }
+    .imagefirst,.imagesecond{
+        width: 50%;
+        border:ipx solid black;
+    }
+
+}

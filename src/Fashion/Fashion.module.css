@@ -1,0 +1,74 @@
+
+.searchbar{
+ text-align:center;
+     width:80%;
+     margin:10px auto;
+     /* text-align: center; */
+ }
+.searchbar > input{
+    height:40px;
+    width: 50%;
+}
+input:focus{
+    outline: none;
+}
+.searchIcon{
+    position: absolute;
+    top: 6.5rem;
+    left: 67%;
+    cursor: pointer;
+}
+
+
+.productsContainer{
+    /* border: 1px solid black; */
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.productitems{
+    width: calc(33% - 22px);
+    height: 390px;
+    margin: 10px;
+    border: 2px solid grey;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16px;
+    padding:12px;
+    border-radius: 5px;
+
+}
+
+.productitems > img{
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+@media (min-width:0px) and (max-width:642px){
+    .productitems{
+        width: 90%;
+        height: 600px;
+    }
+    .searchbar > input{
+        width:90%
+    }
+    .searchIcon{
+        top:6.3rem;
+        left:75%;
+        background-color: white;
+        padding: 8px 10px px;
+    }
+    .productitems >img{
+        height: 500px;
+    }
+}
+
+@media (min-width:643px) and (max-width:962px){
+.productitems{
+    width:calc(50% - 24px)
+}
+}
