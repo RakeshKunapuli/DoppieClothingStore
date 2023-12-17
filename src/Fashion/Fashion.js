@@ -1,9 +1,10 @@
 import Data from "../Data.json";
-import React, { useState, useEffect, useCallback,useMemo } from "react";
-import Search from "./Search";
+import React, { useState, useEffect,useMemo } from "react";
+import Search from './Search'
 import Styles from "./Fashion.module.css";
 import { connect } from "react-redux";
 import { useNavigate } from "react-router-dom";
+
 function Fashion({ search }) {
   let [data, setData] = useState();
 

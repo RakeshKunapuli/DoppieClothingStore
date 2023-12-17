@@ -1,0 +1,123 @@
+.mainSpecContainer{
+    width: 80%;
+    height: 700px;
+    /* border: 1px solid black; */
+}
+
+.productWrapper{
+    width: 100%;
+    padding: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.imagecontainer{
+    margin: 10px;
+    height: 600px;
+    width:450px;
+    max-width: 800px;
+}
+
+.imagecontainer > img{
+    width: 100%;
+    height: 100%;
+}
+.details{
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center
+}
+
+.additionalImages{
+    width: 120px;
+    height: 150px;
+    margin: 10px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.additionalImages > img{
+    width: 100%;
+}
+.cartbtn{
+    text-align: center;
+    margin: 20px;
+}
+
+.cartbtn > button{
+    padding:10px 20px;
+    border: none;
+    background-color:rgb(23, 197, 23) ;
+    color: white;
+    border-radius: 5px;
+    width:40%;
+}
+
+.cartbtn > button:hover{
+    background-color: rgb(12, 233, 12);
+    transform: scale(1.1);
+}
+
+
+/* ===================================================================
+   You may like this styles start here
+ =======================================================================   */
+
+.itemsmore{
+    text-align: center;
+    border-top: 2px solid black;
+    margin-top: 40px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.itemsmore > h2{
+    text-transform: capitalize;
+    height: 60px;
+    text-align: center;
+
+}
+
+.aditionalproductswrapper {
+    width: calc(33% - 22px);
+    margin: 10px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px grey,-1px -1px 2px grey;
+}
+
+.aditionalimagesWrapper{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+   
+}
+.aditionalproductswrapper > img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+
+
+@media (max-width:469px){
+    .imagecontainer > img{
+        object-fit: contain;
+    }
+    .aditionalproductswrapper{
+        width:90%
+    }
+}
+
+@media (min-width:470px) and (max-width:802px){
+    .aditionalproductswrapper{
+width:calc(50% - 22px)
+    }
+}

@@ -8,7 +8,6 @@ import { setSearch } from '../ReduxStore/Reducer';
 function Search({setSearch}) {
 
     let [searchvalue,setSearchValue] = useState('')
-    // console.log(searchvalue)
 
     var handlesearch=(e)=>{
         var value = e.target.value
