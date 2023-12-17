@@ -2,8 +2,6 @@ body{
     min-height: 100vh;
 }
 
-
-
 .maincontainer{
    border-top: 1px dotted black;
    margin-top: 20px;
@@ -32,4 +30,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+@media (min-width:0px) and (max-width:642px){
+    .footer1{
+        font-size: 14px;
+    }
+    .footer1 > h2{
+        font-size: 18px;
+    }
+    .icons > i{
+        font-size: 24px;
+    }
+    .footer3{
+        font-size: 12px;
+    }
 }
