@@ -54,6 +54,10 @@
 
 
 @media (max-width:678px){
+
+    .billingmain{
+        width: 90%;
+    }
     .detailInputs{
         flex-direction: column;
     }
