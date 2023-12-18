@@ -36,7 +36,7 @@ function Specifications() {
 
   const changemainimg = (id) => {
     setselectedimage(id);
-    window.scrollTo({top:80px,behaviour:'smooth'})
+    window.scrollTo({top:0,behavior:'smooth'})
   };
 
   useEffect(() => {
