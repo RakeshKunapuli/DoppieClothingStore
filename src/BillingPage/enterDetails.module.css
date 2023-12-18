@@ -1,0 +1,76 @@
+
+
+.billingmain{
+    width: 70%;
+    margin: 40px auto;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.billingmain > p{
+    background-color: rgba(178, 240, 7, 0.856);
+    padding: 20px;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Chakra Petch', sans-serif;
+    border-radius: 5px;
+}
+/* .detailinfo{
+    /* border: 1px solid black; */
+
+
+.detailinfo > h3{
+    text-transform: capitalize;
+}
+
+.detailInputs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.detailInputs > input,.contactinfo > input{
+    width:calc(50% - 20px);
+    margin: 10px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-family: 14px;
+}
+
+.detailInputs > input::placeholder{
+    font-size: 14px;
+    margin: 25px;
+    
+}
+
+
+.proced{
+    border: none;
+    background-color: rgba(178, 240, 7, 0.856) ;
+    padding: 10px;
+    width: 400px;
+    /* margin-top: 20px; */
+    color: white;
+}
+
+
+@media (max-width:678px){
+
+    .billingmain{
+        width: 90%;
+    }
+    .detailInputs{
+        flex-direction: column;
+    }
+    .detailInputs > input,.contactinfo > input{
+        width: 90%;
+    }
+    .proced{
+        width: 90%;
+        padding: 12px;
+        font-size: 14px;
+    }
+    .billingmain > p{
+        font-size: 12px;
+        padding: 16px;
+    }
+}

@@ -20,7 +20,7 @@ function Footer() {
 <i className="fab fa-linkedin-in fa-2x" style={{color:"#0082ca"}}></i>
 <i className="fab fa-pinterest fa-2x" style={{color: "#c61118"}}></i>
 <i className="fab fa-youtube fa-2x" style={{color: "#ed302f"}}></i>
-<i className="fab fa-whatsapp fa-2x" style={{color: '#25d366'}}></i>
+{/* <i className="fab fa-whatsapp fa-2x" style={{color: '#25d366'}}></i> */}
       </div>
       </div>
 

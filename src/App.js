@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Fashion from "./Fashion/Fashion";
 import Footer from "./Footer/Footer";
 import Specifications from "./ItemSpec/Specifications";
+import Enterdetails from "./BillingPage/Enterdetails";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path={"/accesories"} element={<Accesories />} />
         <Route path={"/cart"} element={<Cart />} />
         <Route path={'/details/:id'} element={<Specifications/>}/>
+        <Route path={'/billingdetails'} element={<Enterdetails/>}/>
         <Route path={'*'} element={<h1 style={{height:'49vh'}}>404 PAGE NOT FOUND</h1>}/>
       </Routes>
       <Footer/>
