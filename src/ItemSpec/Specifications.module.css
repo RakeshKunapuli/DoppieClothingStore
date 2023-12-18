@@ -114,6 +114,15 @@
     .aditionalproductswrapper{
         width:90%
     }
+    .cartbtn > button{
+        width: 90%;
+    }
+    .additionalImages {
+        width:60%;
+        height:200px;
+        padding: 20px;
+        /* border: 1px solid black; */
+    }
 }
 
 @media (min-width:470px) and (max-width:802px){
